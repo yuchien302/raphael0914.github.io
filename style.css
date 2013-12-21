@@ -1,0 +1,13 @@
+html {
+
+	background: url("image/bg_grid.png") ;
+}
+
+body {
+
+	margin: 59px 179px;
+	padding: 39px 59px;
+	background: #fff;
+	border: 1px solid #dbdbdb;
+
+}
