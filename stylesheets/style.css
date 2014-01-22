@@ -1,0 +1,120 @@
+/* line 17, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 31, ../sass/style.sass */
+html {
+  background: url("../images/bg_grid.png");
+  font-family: "Century Gothic", "Helvetica"; }
+
+/* line 35, ../sass/style.sass */
+body {
+  margin: 59px 179px;
+  padding: 39px 59px;
+  background: white;
+  border: 1px solid #dbdbdb;
+  padding: 50px;
+  line-height: 24px;
+  font-size: 16px; }
+
+/* line 43, ../sass/style.sass */
+h1 {
+  font-size: 2em;
+  line-height: 2.25em; }
+
+/* line 45, ../sass/style.sass */
+p {
+  font-family: "Bookman Old Style"; }
+
+/* line 48, ../sass/style.sass */
+#name {
+  font-family: "Century Gothic"; }
+
+/* line 53, ../sass/style.sass */
+#project-area h1 {
+  font-size: 1.5em;
+  line-height: 1.5em; }
+/* line 56, ../sass/style.sass */
+#project-area li {
+  display: inline-block;
+  margin-right: 16px; }
+/* line 59, ../sass/style.sass */
+#project-area img {
+  border-radius: 4px; }
+/* line 62, ../sass/style.sass */
+#project-area .project {
+  border: solid 1px #cccccc;
+  padding: 8px;
+  margin: 0px;
+  border-radius: 4px;
+  transition: opacity 0.2s; }
+/* line 70, ../sass/style.sass */
+#project-area.project-area-active .project:not(:hover) {
+  opacity: 0.5; }
+/* line 73, ../sass/style.sass */
+#project-area span {
+  background-color: #e67e22;
+  border-radius: 2px;
+  padding: 0px 4px;
+  color: white; }
+  /* line 78, ../sass/style.sass */
+  #project-area span.matlab {
+    background-color: #16a085; }
+  /* line 80, ../sass/style.sass */
+  #project-area span.cpp {
+    background-color: #e67e22; }
+  /* line 82, ../sass/style.sass */
+  #project-area span.web {
+    background-color: #2980b9; }

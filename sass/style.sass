@@ -1,0 +1,86 @@
+@import "compass/reset"
+@import "compass/typography/vertical_rhythm"
+$c11: rgb(26, 188, 156)
+$c12: rgb(22, 160, 133)
+$c21: rgb(46, 204, 113)
+$c22: rgb(39, 174, 96)
+$c31: rgb(52, 152, 219)
+$c32: rgb(41, 128, 185)
+$c41: rgb(155, 89, 182)
+$c42: rgb(142, 68, 173)
+$c51: rgb(52, 73, 94)
+$c52: rgb(44, 62, 80)
+$c61: rgb(241, 196, 15)
+$c62: rgb(243, 156, 18)
+$c71: rgb(230, 126, 34)
+$c72: rgb(211, 84, 0)
+$c81: rgb(231, 76, 60)
+$c82: rgb(192, 57, 43)
+$c91: rgb(236, 240, 241)
+$c92: rgb(189, 195, 199)
+$c101: rgb(149, 165, 166)
+$c102: rgb(127, 140, 141)
+  
+$base-font-size: 16px
+$base-line-height: 24px
+    
+$sans-serif-font: "Century Gothic", "Helvetica"
+
+$serif-font: "Bookman Old Style"
+
+html
+  background: url("../images/bg_grid.png")
+  font-family: $sans-serif-font
+
+body
+  margin: 59px 179px
+  padding: 39px 59px
+  background: #fff
+  border: 1px solid #dbdbdb
+  padding: 50px
+  line-height: $base-line-height
+  font-size: $base-font-size
+h1  
+  +adjust-font-size-to(32px, 3)
+p
+  font-family: $serif-font
+
+#name
+  font-family: "Century Gothic"
+
+#project-area
+  
+  h1
+    +adjust-font-size-to(24px, 1.5)
+    
+  li
+    display: inline-block
+    margin-right: 16px
+  img
+    border-radius: 4px
+    
+  .project
+    border: solid 1px #ccc
+    padding: 8px
+    margin: 0px
+    border-radius: 4px
+    transition: opacity 0.2s
+    
+  &.project-area-active
+    .project:not(:hover)
+      opacity: 0.5
+      
+  span
+    background-color: $c71
+    border-radius: 2px
+    padding: 0px 4px
+    color: white
+    &.matlab
+      background-color: $c12
+    &.cpp
+      background-color: $c71
+    &.web
+      background-color: $c32
+    
+  
+
