@@ -1,22 +1,32 @@
 projects =  [
   {
-    title: "Project1",
+    title: "Wish+",
     tags: [{name: "Web", class: "web"}],
     image: "http://placehold.it/300x200",
-    description: "description1"
+    description: "description1",
+    duration: "2011–2013"
   },
   {
-    title: "Project2",
+    title: "Water Ira-Ira Bou",
     tags: [{name: "Matlab", class: "matlab"}, {name: "C++", class: "cpp"}],
-    image: "http://placehold.it/300x200",
-    description: "description2"
+    image: "images/iraira.jpg",
+    description: "description2",
+    duration: "2013 Winter"
   },
   {
     title: "Project3",
     tags: [{name: "C++", class: "cpp"}],
     image: "http://placehold.it/300x200",
-    description: "description2"
-  }   
+    description: "description2",
+    duration: "2011–2013"
+  },
+  {
+    title: "Hi",
+    tags: [{name: "Matlab", class: "matlab"}],
+    image: "http://placehold.it/300x200",
+    description: "description2",
+    duration: "2011–2013"
+  }
 ]
 
 

@@ -57,64 +57,125 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 31, ../sass/style.sass */
 html {
   background: url("../images/bg_grid.png");
-  font-family: "Century Gothic", "Helvetica"; }
+  font-family: "Century Gothic", "Helvetica";
+  position: relative; }
 
-/* line 35, ../sass/style.sass */
+/* line 36, ../sass/style.sass */
 body {
-  margin: 59px 179px;
-  padding: 39px 59px;
+  margin: 89px 59px;
+  padding: 25px 59px 39px;
   background: white;
   border: 1px solid #dbdbdb;
-  padding: 50px;
   line-height: 24px;
   font-size: 16px; }
+  /* line 44, ../sass/style.sass */
+  body > h1 {
+    text-transform: uppercase; }
 
-/* line 43, ../sass/style.sass */
+/* line 47, ../sass/style.sass */
 h1 {
-  font-size: 2em;
-  line-height: 2.25em; }
+  font-size: 1.5em;
+  line-height: 3em; }
+  /* line 51, ../sass/style.sass */
+  h1#name {
+    font-family: "Century Gothic";
+    font-size: 2em;
+    line-height: 1.5em;
+    text-transform: none;
+    margin-left: 180px; }
+    /* line 56, ../sass/style.sass */
+    h1#name span {
+      font-size: 0.5em;
+      line-height: 4.5em;
+      color: #bdc3c7; }
 
-/* line 45, ../sass/style.sass */
+/* line 60, ../sass/style.sass */
 p {
   font-family: "Bookman Old Style"; }
 
-/* line 48, ../sass/style.sass */
-#name {
-  font-family: "Century Gothic"; }
+/* line 63, ../sass/style.sass */
+#sidebar {
+  font-size: 1.125em;
+  line-height: 1.6em;
+  background-color: #c0392b;
+  position: fixed;
+  color: white;
+  left: 0;
+  top: 30%;
+  overflow: hidden;
+  width: 32px;
+  transition: width 0.2s;
+  white-space: nowrap;
+  font-family: "Helvetica"; }
+  /* line 75, ../sass/style.sass */
+  #sidebar:hover {
+    width: 150px; }
+  /* line 77, ../sass/style.sass */
+  #sidebar li:hover {
+    background-color: #e67e22; }
+  /* line 79, ../sass/style.sass */
+  #sidebar li {
+    padding: 2px 4px; }
+  /* line 81, ../sass/style.sass */
+  #sidebar i {
+    margin-right: 8px; }
 
-/* line 53, ../sass/style.sass */
+/* line 84, ../sass/style.sass */
+#avatar {
+  width: 150px; }
+
+/* line 88, ../sass/style.sass */
+.avatar-crop {
+  margin-top: -70px;
+  height: 150px;
+  overflow: hidden;
+  float: left;
+  border-radius: 10px; }
+
+/* line 97, ../sass/style.sass */
 #project-area h1 {
-  font-size: 1.5em;
-  line-height: 1.5em; }
-/* line 56, ../sass/style.sass */
+  font-size: 1.25em;
+  line-height: 1.2em;
+  font-weight: bold; }
+/* line 103, ../sass/style.sass */
 #project-area li {
   display: inline-block;
-  margin-right: 16px; }
-/* line 59, ../sass/style.sass */
+  margin-right: 8px; }
+/* line 106, ../sass/style.sass */
 #project-area img {
-  border-radius: 4px; }
-/* line 62, ../sass/style.sass */
+  height: 200px; }
+/* line 109, ../sass/style.sass */
 #project-area .project {
-  border: solid 1px #cccccc;
+  background-color: #ecf0f1;
   padding: 8px;
-  margin: 0px;
+  margin-bottom: 20px;
   border-radius: 4px;
   transition: opacity 0.2s; }
-/* line 70, ../sass/style.sass */
-#project-area.project-area-active .project:not(:hover) {
-  opacity: 0.5; }
-/* line 73, ../sass/style.sass */
-#project-area span {
+/* line 120, ../sass/style.sass */
+#project-area .crop {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 10px; }
+/* line 127, ../sass/style.sass */
+#project-area span.duration {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #7f8c8d; }
+/* line 131, ../sass/style.sass */
+#project-area span.tag {
   background-color: #e67e22;
   border-radius: 2px;
   padding: 0px 4px;
-  color: white; }
-  /* line 78, ../sass/style.sass */
-  #project-area span.matlab {
+  color: white;
+  font-family: "Courier", "Courier New"; }
+  /* line 138, ../sass/style.sass */
+  #project-area span.tag.matlab {
     background-color: #16a085; }
-  /* line 80, ../sass/style.sass */
-  #project-area span.cpp {
+  /* line 140, ../sass/style.sass */
+  #project-area span.tag.cpp {
     background-color: #e67e22; }
-  /* line 82, ../sass/style.sass */
-  #project-area span.web {
+  /* line 142, ../sass/style.sass */
+  #project-area span.tag.web {
     background-color: #2980b9; }
